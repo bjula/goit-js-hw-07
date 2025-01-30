@@ -31,7 +31,7 @@ console.log(galleryElem);
 function galleryTetmplate(image) {
   return `
   <li class = "gallery-item">
-  <img src=${image.url} alt=${image.alt}  class ="gallery-img">
+  <img src=${image.url} alt= ${image.alt} width ="360px" class ="gallery-img">
   </li>
   `
 }
